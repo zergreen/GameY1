@@ -1,0 +1,695 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.effect.DropShadow?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="backgroudAnchorPane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="510.0" prefWidth="1000.0" style="-fx-background-color: transparent;" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.HomeController">
+	<children>
+      <AnchorPane fx:id="tool" layoutX="360.0" layoutY="20.0" prefHeight="500.0" prefWidth="950.0" style="-fx-background-radius: 0 10 10 0; -fx-border-radius: 0 10 10 0;" visible="false" AnchorPane.bottomAnchor="10.0" AnchorPane.leftAnchor="350.0" AnchorPane.rightAnchor="10.0" AnchorPane.topAnchor="10.0">
+         <children>
+            <Pane layoutX="-0.8000000000000682" layoutY="-14.0" prefHeight="490.0" prefWidth="647.0" style="-fx-background-color: #333356; -fx-background-radius: 0 15 15 0;" AnchorPane.bottomAnchor="1.0" AnchorPane.rightAnchor="-11.0" AnchorPane.topAnchor="-1.0">
+               <children>
+                  <Pane layoutX="51.0" layoutY="155.0" prefHeight="238.0" prefWidth="251.0" style="-fx-background-color: #222239;">
+                     <effect>
+                        <DropShadow />
+                     </effect>
+                     <children>
+                        <ImageView fitHeight="54.0" fitWidth="50.0" layoutX="27.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../images/code_editor.png" />
+                           </image>
+                        </ImageView>
+                        <ImageView fitHeight="20.0" fitWidth="24.0" layoutX="44.0" layoutY="88.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../images/eclipse.png" />
+                           </image>
+                        </ImageView>
+                        <ImageView fitHeight="24.0" fitWidth="27.0" layoutX="41.0" layoutY="64.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../images/visual_studio.png" />
+                           </image>
+                        </ImageView>
+                        <ImageView fitHeight="20.0" fitWidth="24.0" layoutX="44.0" layoutY="112.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../images/intellij.png" />
+                           </image>
+                        </ImageView>
+                        <Label layoutX="69.0" layoutY="67.0" text="VS Code" textFill="WHITE">
+                           <font>
+                              <Font name="Berlin Sans FB" size="15.0" />
+                           </font>
+                        </Label>
+                        <Label layoutX="79.0" layoutY="29.0" text="Code editors" textFill="#71c4f7">
+                           <font>
+                              <Font name="Serif Bold" size="18.0" />
+                           </font>
+                        </Label>
+                        <Label layoutX="69.0" layoutY="90.0" text="Eclipse" textFill="#f2f2f2">
+                           <font>
+                              <Font name="Berlin Sans FB" size="15.0" />
+                           </font>
+                        </Label>
+                        <Label layoutX="73.0" layoutY="113.0" text="IntelliJ IDEA" textFill="#fdfdfd">
+                           <font>
+                              <Font name="Berlin Sans FB" size="15.0" />
+                           </font>
+                        </Label>
+                        <ImageView fitHeight="54.0" fitWidth="50.0" layoutX="27.0" layoutY="145.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../images/code_editor.png" />
+                           </image>
+                        </ImageView>
+                        <Label layoutX="80.0" layoutY="160.0" text="Layout" textFill="#71c4f7">
+                           <font>
+                              <Font name="Serif Bold" size="18.0" />
+                           </font>
+                        </Label>
+                        <ImageView fitHeight="24.0" fitWidth="27.0" layoutX="44.0" layoutY="195.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../images/scene_builder.png" />
+                           </image>
+                        </ImageView>
+                        <Label layoutX="71.0" layoutY="199.0" text="Scene Builder" textFill="WHITE">
+                           <font>
+                              <Font name="Berlin Sans FB" size="15.0" />
+                           </font>
+                        </Label>
+                     </children>
+                  </Pane>
+                  <Label layoutX="185.0" layoutY="49.0" text="Creator tools" textFill="WHITE">
+                     <font>
+                        <Font name="Serif Bold Italic" size="48.0" />
+                     </font>
+                     <effect>
+                        <DropShadow />
+                     </effect>
+                  </Label>
+                  <ImageView fitHeight="38.0" fitWidth="27.0" layoutX="1.0" layoutY="218.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../images/left.png" />
+                     </image>
+                  </ImageView>
+                  <JFXButton fx:id="closeButton3" layoutX="613.0" stylesheets="@application.css" text="X" textFill="WHITE">
+                     <font>
+                        <Font name="Berlin Sans FB Bold" size="12.0" />
+                     </font>
+                  </JFXButton>
+                  <JFXButton fx:id="minimizeButton3" layoutX="586.0" stylesheets="@application.css" text="--" textFill="WHITE">
+                     <font>
+                        <Font name="Berlin Sans FB Bold" size="12.0" />
+                     </font>
+                  </JFXButton>
+                  <ImageView fitHeight="127.0" fitWidth="132.0" layoutX="50.0" layoutY="13.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../images/toolIcon.png" />
+                     </image>
+                     <effect>
+                        <DropShadow />
+                     </effect>
+                  </ImageView>
+                  <Pane layoutX="323.0" layoutY="155.0" prefHeight="150.0" prefWidth="282.0" style="-fx-background-color: #222239;">
+                     <effect>
+                        <DropShadow />
+                     </effect>
+                     <children>
+                        <ImageView fitHeight="54.0" fitWidth="50.0" layoutX="27.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../images/graphics_tool.png" />
+                           </image>
+                        </ImageView>
+                        <Label layoutX="85.0" layoutY="29.0" text="Graphics tools" textFill="#71c4f7">
+                           <font>
+                              <Font name="Serif Bold" size="18.0" />
+                           </font>
+                        </Label>
+                        <ImageView fitHeight="20.0" fitWidth="24.0" layoutX="47.0" layoutY="88.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../images/pichon.png" />
+                           </image>
+                        </ImageView>
+                        <ImageView fitHeight="24.0" fitWidth="27.0" layoutX="44.0" layoutY="64.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../images/Photoshop.png" />
+                           </image>
+                        </ImageView>
+                        <ImageView fitHeight="20.0" fitWidth="24.0" layoutX="47.0" layoutY="110.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../images/color_picker.png" />
+                           </image>
+                        </ImageView>
+                        <Label layoutX="72.0" layoutY="67.0" text="PhotoShop" textFill="WHITE">
+                           <font>
+                              <Font name="Berlin Sans FB" size="15.0" />
+                           </font>
+                        </Label>
+                        <Label layoutX="72.0" layoutY="90.0" text="Pichon" textFill="WHITE">
+                           <font>
+                              <Font name="Berlin Sans FB" size="15.0" />
+                           </font>
+                        </Label>
+                        <Label layoutX="72.0" layoutY="110.0" text="JCPicker" textFill="WHITE">
+                           <font>
+                              <Font name="Berlin Sans FB" size="15.0" />
+                           </font>
+                        </Label>
+                     </children>
+                  </Pane>
+                  <Pane layoutX="323.0" layoutY="324.0" prefHeight="137.0" prefWidth="282.0" style="-fx-background-color: #222239;">
+                     <effect>
+                        <DropShadow />
+                     </effect>
+                     <children>
+                        <ImageView fitHeight="54.0" fitWidth="50.0" layoutX="27.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../images/library.png" />
+                           </image>
+                        </ImageView>
+                        <Label layoutX="77.0" layoutY="29.0" text="Library" textFill="#71c4f7">
+                           <font>
+                              <Font name="Serif Bold" size="18.0" />
+                           </font>
+                        </Label>
+                        <ImageView fitHeight="20.0" fitWidth="24.0" layoutX="45.0" layoutY="99.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../images/jfoenix.png" />
+                           </image>
+                        </ImageView>
+                        <ImageView fitHeight="24.0" fitWidth="27.0" layoutX="42.0" layoutY="74.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../images/javafx.png" />
+                           </image>
+                        </ImageView>
+                        <Label layoutX="70.0" layoutY="77.0" text="JavaFX" textFill="WHITE">
+                           <font>
+                              <Font name="Berlin Sans FB" size="15.0" />
+                           </font>
+                        </Label>
+                        <Label layoutX="70.0" layoutY="99.0" text="JFoenix" textFill="WHITE">
+                           <font>
+                              <Font name="Berlin Sans FB" size="15.0" />
+                           </font>
+                        </Label>
+                     </children>
+                  </Pane>
+               </children></Pane>
+         </children>
+      </AnchorPane>
+      <AnchorPane fx:id="creator" layoutX="360.0" layoutY="20.0" prefHeight="500.0" prefWidth="950.0" style="-fx-background-radius: 0 10 10 0; -fx-border-radius: 0 10 10 0;" visible="false" AnchorPane.bottomAnchor="10.0" AnchorPane.leftAnchor="350.0" AnchorPane.rightAnchor="10.0" AnchorPane.topAnchor="10.0">
+         <children>
+            <Pane layoutX="-0.8000000000000682" layoutY="-14.0" prefHeight="490.0" prefWidth="647.0" style="-fx-background-color: #333356; -fx-background-radius: 0 15 15 0;" AnchorPane.bottomAnchor="1.0" AnchorPane.rightAnchor="-11.0" AnchorPane.topAnchor="-1.0">
+               <children>
+                  <ImageView fitHeight="38.0" fitWidth="27.0" layoutY="148.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../images/left.png" />
+                     </image>
+                  </ImageView>
+                  <JFXButton fx:id="closeButton2" layoutX="613.0" layoutY="2.0" stylesheets="@application.css" text="X" textFill="WHITE">
+                     <font>
+                        <Font name="Berlin Sans FB Bold" size="12.0" />
+                     </font>
+                  </JFXButton>
+                  <JFXButton fx:id="minimizeButton2" layoutX="586.0" layoutY="2.0" stylesheets="@application.css" text="--" textFill="WHITE">
+                     <font>
+                        <Font name="Berlin Sans FB Bold" size="12.0" />
+                     </font>
+                  </JFXButton>
+                  <Pane layoutX="38.0" layoutY="148.0" prefHeight="154.0" prefWidth="580.0" style="-fx-background-color: #222239;">
+                     <effect>
+                        <DropShadow />
+                     </effect>
+                     <children>
+                        <ImageView fitHeight="54.0" fitWidth="50.0" layoutX="14.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../images/algorithm.png" />
+                           </image>
+                        </ImageView>
+                        <Label layoutX="67.0" layoutY="39.0" text="Algorithm" textFill="WHITE">
+                           <font>
+                              <Font name="Serif Bold" size="18.0" />
+                           </font>
+                        </Label>
+                        <ImageView fitHeight="20.0" fitWidth="24.0" layoutX="17.0" layoutY="96.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../images/facebook.png" />
+                           </image></ImageView>
+                        <ImageView fitHeight="24.0" fitWidth="27.0" layoutX="14.0" layoutY="72.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../images/man.png" />
+                           </image>
+                        </ImageView>
+                        <ImageView fitHeight="24.0" fitWidth="27.0" layoutX="131.0" layoutY="72.0" pickOnBounds="true" preserveRatio="true" />
+                        <ImageView fitHeight="24.0" fitWidth="27.0" layoutX="394.0" layoutY="75.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../images/man.png" />
+                           </image>
+                        </ImageView>
+                        <ImageView fitHeight="24.0" fitWidth="27.0" layoutX="202.0" layoutY="74.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../images/man.png" />
+                           </image>
+                        </ImageView>
+                        <ImageView fitHeight="20.0" fitWidth="24.0" layoutX="204.0" layoutY="98.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../images/facebook.png" />
+                           </image>
+                        </ImageView>
+                        <ImageView fitHeight="20.0" fitWidth="24.0" layoutX="396.0" layoutY="99.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../images/facebook.png" />
+                           </image>
+                        </ImageView>
+                        <ImageView fitHeight="20.0" fitWidth="24.0" layoutX="17.0" layoutY="117.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../images/mail.png" />
+                           </image>
+                        </ImageView>
+                        <ImageView fitHeight="20.0" fitWidth="24.0" layoutX="204.0" layoutY="119.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../images/mail.png" />
+                           </image>
+                        </ImageView>
+                        <ImageView fitHeight="20.0" fitWidth="24.0" layoutX="396.0" layoutY="122.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../images/mail.png" />
+                           </image>
+                        </ImageView>
+                        <Label layoutX="44.0" layoutY="77.0" text="Alongkorn Vanzoh" textFill="#5c9bc2">
+                           <font>
+                              <Font name="Berlin Sans FB" size="15.0" />
+                           </font>
+                        </Label>
+                        <Label layoutX="44.0" layoutY="98.0" text="Alongkorn Vanzoh" textFill="#b7b0b0">
+                           <font>
+                              <Font name="Serif Regular" size="13.0" />
+                           </font>
+                        </Label>
+                        <Label layoutX="44.0" layoutY="118.0" text="v_develop@hotmail.com" textFill="#b7b0b0">
+                           <font>
+                              <Font name="Serif Regular" size="13.0" />
+                           </font>
+                        </Label>
+                        <Label layoutX="232.0" layoutY="79.0" text="Pisut Yimkusan" textFill="#5c9bc2">
+                           <font>
+                              <Font name="Berlin Sans FB" size="15.0" />
+                           </font>
+                        </Label>
+                        <Label layoutX="231.0" layoutY="102.0" text="Tontun" textFill="#b7b0b0">
+                           <font>
+                              <Font name="Serif Regular" size="13.0" />
+                           </font>
+                        </Label>
+                        <Label layoutX="233.0" layoutY="120.0" text="pisutyimkosun@gmail.com" textFill="#b7b0b0">
+                           <font>
+                              <Font name="Serif Regular" size="13.0" />
+                           </font>
+                        </Label>
+                        <Label layoutX="67.0" layoutY="19.0" text="Game" textFill="WHITE">
+                           <font>
+                              <Font name="Serif Bold" size="18.0" />
+                           </font>
+                        </Label>
+                        <Label layoutX="423.0" layoutY="81.0" text="Pumipat Pisitratchanon" textFill="#5c9bc2">
+                           <font>
+                              <Font name="Berlin Sans FB" size="15.0" />
+                           </font>
+                        </Label>
+                        <Label layoutX="424.0" layoutY="104.0" text="Mark" textFill="#b7b0b0">
+                           <font>
+                              <Font name="Serif Regular" size="13.0" />
+                           </font>
+                        </Label>
+                        <Label layoutX="425.0" layoutY="124.0" text="63050170@kmitl.ac.th" textFill="#b7b0b0">
+                           <font>
+                              <Font name="Serif Regular" size="13.0" />
+                           </font>
+                        </Label>
+                        <ImageView fitHeight="54.0" fitWidth="50.0" layoutX="200.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../images/graphics.png" />
+                           </image>
+                        </ImageView>
+                        <ImageView fitHeight="54.0" fitWidth="50.0" layoutX="381.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../images/support.png" />
+                           </image>
+                        </ImageView>
+                        <Label layoutX="257.0" layoutY="19.0" text="Game" textFill="WHITE">
+                           <font>
+                              <Font name="Serif Bold" size="18.0" />
+                           </font>
+                        </Label>
+                        <Label layoutX="256.0" layoutY="39.0" text="Graphics" textFill="WHITE">
+                           <font>
+                              <Font name="Serif Bold" size="18.0" />
+                           </font>
+                        </Label>
+                        <Label layoutX="438.0" layoutY="29.0" text="Support" textFill="WHITE">
+                           <font>
+                              <Font name="Serif Bold" size="18.0" />
+                           </font>
+                        </Label>
+                     </children>
+                  </Pane>
+                  <Label layoutX="185.0" layoutY="51.0" text="Developers" textFill="WHITE">
+                     <font>
+                        <Font name="Serif Bold Italic" size="48.0" />
+                     </font>
+                     <effect>
+                        <DropShadow />
+                     </effect>
+                  </Label>
+                  <ImageView fitHeight="127.0" fitWidth="132.0" layoutX="47.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../images/creatorIcon.png" />
+                     </image>
+                     <effect>
+                        <DropShadow />
+                     </effect></ImageView>
+                  <Pane layoutX="38.0" layoutY="316.0" prefHeight="154.0" prefWidth="282.0" style="-fx-background-color: #222239;">
+                     <effect>
+                        <DropShadow />
+                     </effect>
+                     <children>
+                        <ImageView fitHeight="54.0" fitWidth="50.0" layoutX="27.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../images/ui.png" />
+                           </image>
+                        </ImageView>
+                        <Label layoutX="77.0" layoutY="39.0" text="Interface" textFill="WHITE">
+                           <font>
+                              <Font name="Serif Bold" size="18.0" />
+                           </font>
+                        </Label>
+                        <ImageView fitHeight="20.0" fitWidth="24.0" layoutX="45.0" layoutY="98.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../images/facebook.png" />
+                           </image>
+                        </ImageView>
+                        <ImageView fitHeight="24.0" fitWidth="27.0" layoutX="42.0" layoutY="74.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../images/man.png" />
+                           </image>
+                        </ImageView>
+                        <ImageView fitHeight="20.0" fitWidth="24.0" layoutX="45.0" layoutY="119.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../images/mail.png" />
+                           </image>
+                        </ImageView>
+                        <Label layoutX="70.0" layoutY="77.0" text="Bukhoree Dengmasa" textFill="#5c9bc2">
+                           <font>
+                              <Font name="Berlin Sans FB" size="15.0" />
+                           </font>
+                        </Label>
+                        <Label layoutX="70.0" layoutY="100.0" text="Bukhoree Dengmasa" textFill="#b7b0b0">
+                           <font>
+                              <Font name="Serif Regular" size="13.0" />
+                           </font>
+                        </Label>
+                        <Label layoutX="71.0" layoutY="120.0" text="bukhoree321@gmail.com" textFill="#b7b0b0">
+                           <font>
+                              <Font name="Serif Regular" size="13.0" />
+                           </font>
+                        </Label>
+                        <Label layoutX="77.0" layoutY="19.0" text="User" textFill="WHITE">
+                           <font>
+                              <Font name="Serif Bold" size="18.0" />
+                           </font>
+                        </Label>
+                     </children>
+                  </Pane>
+                  <Pane layoutX="337.0" layoutY="316.0" prefHeight="154.0" prefWidth="282.0" style="-fx-background-color: #222239;">
+                     <effect>
+                        <DropShadow />
+                     </effect>
+                     <children>
+                        <ImageView fitHeight="54.0" fitWidth="50.0" layoutX="27.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../images/blogIcon.png" />
+                           </image>
+                        </ImageView>
+                        <Label layoutX="77.0" layoutY="29.0" text="Blog" textFill="WHITE">
+                           <font>
+                              <Font name="Serif Bold" size="18.0" />
+                           </font>
+                        </Label>
+                        <ImageView fitHeight="20.0" fitWidth="24.0" layoutX="45.0" layoutY="98.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../images/facebook.png" />
+                           </image>
+                        </ImageView>
+                        <ImageView fitHeight="24.0" fitWidth="27.0" layoutX="42.0" layoutY="74.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../images/man.png" />
+                           </image>
+                        </ImageView>
+                        <ImageView fitHeight="20.0" fitWidth="24.0" layoutX="45.0" layoutY="119.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../images/mail.png" />
+                           </image>
+                        </ImageView>
+                        <Label layoutX="71.0" layoutY="77.0" text="Phongsakorn Kawhaolai" textFill="#5c9bc2">
+                           <font>
+                              <Font name="Berlin Sans FB" size="15.0" />
+                           </font>
+                        </Label>
+                        <Label layoutX="71.0" layoutY="100.0" text="พงศกร กาเหว่าลาย" textFill="#b7b0b0">
+                           <font>
+                              <Font name="Berlin Sans FB" size="13.0" />
+                           </font>
+                        </Label>
+                        <Label layoutX="72.0" layoutY="120.0" text="63050159@kmitl.ac.th" textFill="#b7b0b0">
+                           <font>
+                              <Font name="Serif Regular" size="13.0" />
+                           </font>
+                        </Label>
+                     </children>
+                  </Pane>
+               </children></Pane>
+         </children>
+      </AnchorPane>
+      <AnchorPane fx:id="tutorial" layoutX="350.0" layoutY="5.0" prefHeight="500.0" prefWidth="950.0" style="-fx-background-radius: 0 10 10 0; -fx-border-radius: 0 10 10 0;" visible="false" AnchorPane.bottomAnchor="10.0" AnchorPane.leftAnchor="350.0" AnchorPane.rightAnchor="10.0" AnchorPane.topAnchor="10.0">
+         <children>
+            <Pane layoutX="-0.8000000000000682" layoutY="-14.0" prefHeight="490.0" prefWidth="647.0" style="-fx-background-color: #333356; -fx-background-radius: 0 15 15 0;" AnchorPane.bottomAnchor="1.0" AnchorPane.rightAnchor="-11.0" AnchorPane.topAnchor="-1.0">
+               <children>
+                  <Label layoutX="195.0" layoutY="54.0" text="How to play" textFill="WHITE">
+                     <font>
+                        <Font name="Serif Bold Italic" size="48.0" />
+                     </font>
+                     <effect>
+                        <DropShadow />
+                     </effect>
+                  </Label>
+                  <ImageView fitHeight="127.0" fitWidth="132.0" layoutX="50.0" layoutY="18.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../images/tutorialIcon.png" />
+                     </image>
+                     <effect>
+                        <DropShadow />
+                     </effect>
+                  </ImageView>
+                  <Pane layoutX="27.0" layoutY="156.0" prefHeight="310.0" prefWidth="594.0" style="-fx-background-color: #222239;">
+                     <effect>
+                        <DropShadow />
+                     </effect>
+                     <children>
+                        <Label layoutX="60.0" layoutY="9.0" prefHeight="293.0" prefWidth="471.0" text="วิธีการเล่น คือ ให้ผู้เล่นคลิกภาพที่มีการเคลื่อนไหว โดยในแต่ละหน้าต่าง โปรแกรมจะทำการสุ่มบล็อกที่จะทำให้เกิดภาพเคลื่อนไหวที่มีลักษณะแตกต่างกัน ถ้าหากผู้เล่นคลิกบล็อกที่ภาพที่มีการเคลื่อนไหว ผู้เล่นก็จะได้คะแนน และโหลดหน้าใหม่ แต่ถ้ากดผิดบล็อกผู้เล่นก็จะไม่ได้คะแนนในรอบนั้น โดยที่โปรแกรมจะทำการสุ่มบล็อกเริ่มต้นที่จำนวน 2x2 และเมื่อเล่นครบ  5 ครั้ง ก็เพิ่มจำนวนบล็อกเป็น 4x4 โดยที่จำนวนบล็อกสูงสุด คือ 8x8 ถ้าหากผู้เล่นคลิกบล็อกถูกทั้งหมด คะแนนสูงสุด คือ 200 คะแนน สามารถ reset score ได้ที่ reset.exe เมื่อเล่นจบเเล้วสามารถดูผลตรวจสุขภาพได้ที่ result.exe" textFill="WHITE" wrapText="true">
+                           <font>
+                              <Font size="18.0" />
+                           </font>
+                        </Label>
+                     </children>
+                  </Pane>
+                  <ImageView fitHeight="38.0" fitWidth="27.0" layoutY="81.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../images/left.png" />
+                     </image>
+                  </ImageView>
+                  <JFXButton fx:id="closeButton1" layoutX="615.0" layoutY="2.0" stylesheets="@application.css" text="X" textFill="WHITE">
+                     <font>
+                        <Font name="Berlin Sans FB Bold" size="12.0" />
+                     </font>
+                  </JFXButton>
+                  <JFXButton fx:id="minimizeButton1" layoutX="588.0" layoutY="2.0" stylesheets="@application.css" text="--" textFill="WHITE">
+                     <font>
+                        <Font name="Berlin Sans FB Bold" size="12.0" />
+                     </font>
+                  </JFXButton>
+               </children></Pane>
+         </children>
+      </AnchorPane>
+		<AnchorPane fx:id="home" prefHeight="500.0" prefWidth="950.0" style="-fx-background-radius: 0 10 10 0; -fx-border-radius: 0 10 10 0;" AnchorPane.bottomAnchor="10.0" AnchorPane.leftAnchor="350.0" AnchorPane.rightAnchor="10.0" AnchorPane.topAnchor="10.0">
+			<children>
+				<Pane layoutY="-1.0" prefHeight="490.0" prefWidth="647.0" style="-fx-background-color: #51AABF; -fx-background-radius: 0 15 15 0;" AnchorPane.bottomAnchor="1.0" AnchorPane.rightAnchor="-11.0" AnchorPane.topAnchor="-1.0">
+					<children>
+						<Pane layoutY="10.0" prefHeight="479.0" prefWidth="640.0">
+							<children>
+      								<ImageView fitHeight="479.0" fitWidth="640.0" layoutY="-4.0" nodeOrientation="INHERIT" pickOnBounds="true" preserveRatio="true">
+      									<image>
+      										<Image url="@../images/background.gif" />
+      									</image>
+      								</ImageView>
+								<Label layoutX="168.0" layoutY="53.0" text="CLICK" textFill="#2effdc">
+									<font>
+										<Font name="Mistral" size="140.0" />
+									</font>
+									<effect>
+										<DropShadow height="0.0" radius="6.65" spread="1.0" width="28.6" />
+									</effect>
+								</Label>
+								<Label layoutX="425.0" layoutY="74.0" text="it" textFill="WHITE">
+									<font>
+										<Font name="Monotype Corsiva" size="140.0" />
+									</font>
+									<effect>
+										<DropShadow height="0.0" radius="2.48" spread="1.0" width="11.92" />
+									</effect>
+								</Label>
+                        <JFXButton fx:id="closeButton" layoutX="614.0" layoutY="-2.0" stylesheets="@application.css" text="X" textFill="WHITE">
+                           <font>
+                              <Font name="Berlin Sans FB Bold" size="12.0" />
+                           </font>
+                        </JFXButton>
+                        <JFXButton fx:id="minimizeButton" layoutX="584.0" layoutY="-2.0" stylesheets="@application.css" text="--" textFill="WHITE">
+                           <font>
+                              <Font name="Berlin Sans FB Bold" size="12.0" />
+                           </font>
+                        </JFXButton>
+                        <JFXButton fx:id="playButton" layoutX="251.0" layoutY="304.0" prefHeight="55.0" prefWidth="174.0" styleClass="playButton" stylesheets="@application.css" text=" Play" textFill="#000000c5">
+                           <font>
+                              <Font name="System Bold Italic" size="24.0" />
+                           </font>
+                           <graphic>
+                              <ImageView fitHeight="37.0" fitWidth="45.0" pickOnBounds="true" preserveRatio="true">
+                                 <image>
+                                    <Image url="@../images/play.png" />
+                                 </image>
+                              </ImageView>
+                           </graphic>
+                        </JFXButton>
+                        <ImageView fitHeight="38.0" fitWidth="27.0" layoutY="10.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../images/left.png" />
+                           </image>
+                        </ImageView>
+							</children>
+						</Pane>
+					</children>
+				</Pane>
+			</children>
+		</AnchorPane>
+      <AnchorPane layoutX="-5.0" layoutY="14.0" prefHeight="490.0" prefWidth="282.0">
+         <children>
+            <Pane layoutX="7.0" layoutY="-2.0" prefHeight="490.0" prefWidth="275.0" style="-fx-background-radius: 10 0 0 10;" styleClass="leftPane" stylesheets="@application.css">
+               <children>
+                  <Label fx:id="jokeLabel" alignment="TOP_CENTER" layoutX="15.0" layoutY="271.0" prefHeight="55.0" prefWidth="245.0" textFill="WHITE">
+                     <font>
+                        <Font name="System Bold" size="14.0" />
+                     </font>
+                     <effect>
+                        <DropShadow />
+                     </effect>
+                  </Label>
+                  <ImageView fitHeight="206.0" fitWidth="269.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../images/ai.gif" />
+                     </image>
+                  </ImageView>
+                  <JFXButton fx:id="randomButton" layoutX="97.0" layoutY="444.0" prefHeight="32.0" prefWidth="84.0" styleClass="randomButton" stylesheets="@application.css" text="Random" textFill="WHITE">
+                     <font>
+                        <Font name="Serif Regular" size="14.0" />
+                     </font>
+                  </JFXButton>
+                  <Label fx:id="jokeAnsLabel" alignment="TOP_CENTER" layoutX="15.0" layoutY="335.0" prefHeight="55.0" prefWidth="245.0" textFill="WHITE">
+                     <font>
+                        <Font size="14.0" />
+                     </font>
+                     <effect>
+                        <DropShadow />
+                     </effect>
+                  </Label>
+                  <JFXButton fx:id="showAnsButton" layoutX="104.0" layoutY="401.0" prefHeight="24.0" prefWidth="71.0" styleClass="randomButton" stylesheets="@application.css" text="Show answer" textFill="WHITE">
+                     <font>
+                        <Font name="Serif Regular" size="10.0" />
+                     </font>
+                  </JFXButton>
+               </children></Pane>
+         </children>
+      </AnchorPane>
+		<AnchorPane layoutX="303.0" prefHeight="510.0" prefWidth="79.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="277.0" AnchorPane.rightAnchor="644.0" AnchorPane.topAnchor="0.0">
+			<children>
+				<VBox layoutX="-5.0" prefHeight="510.0" prefWidth="79.0" style="-fx-background-radius: 10 10 10 10; -fx-background-color: #222239;" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+					<children>
+                  <JFXButton fx:id="homeButton" contentDisplay="TOP" prefHeight="70.0" prefWidth="81.0" styleClass="homeButton" stylesheets="@application.css" text="Home" textFill="WHITE">
+                     <font>
+                        <Font name="Serif Bold" size="14.0" />
+                     </font>
+                     <graphic>
+                        <ImageView fitHeight="38.0" fitWidth="42.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../images/home.png" />
+                           </image></ImageView>
+                     </graphic>
+                  </JFXButton>
+                  <JFXButton fx:id="tutorialButton" contentDisplay="TOP" layoutX="10.0" layoutY="292.0" prefHeight="70.0" prefWidth="81.0" stylesheets="@application.css" text="Tutorial" textFill="WHITE">
+                     <font>
+                        <Font name="Serif Bold" size="14.0" />
+                     </font>
+                     <graphic>
+                        <ImageView fitHeight="38.0" fitWidth="42.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../images/tutorial.png" />
+                           </image></ImageView>
+                     </graphic>
+                  </JFXButton>
+                  <JFXButton fx:id="creatorButton" contentDisplay="TOP" layoutX="10.0" layoutY="362.0" prefHeight="70.0" prefWidth="81.0" stylesheets="@application.css" text="Creators" textFill="WHITE">
+                     <font>
+                        <Font name="Serif Bold" size="14.0" />
+                     </font>
+                     <graphic>
+                        <ImageView fitHeight="38.0" fitWidth="42.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../images/creator.png" />
+                           </image>
+                        </ImageView>
+                     </graphic>
+                  </JFXButton>
+                  <JFXButton fx:id="toolButton" contentDisplay="TOP" layoutX="10.0" layoutY="292.0" prefHeight="70.0" prefWidth="81.0" stylesheets="@application.css" text="Tools" textFill="WHITE">
+                     <font>
+                        <Font name="Serif Bold" size="14.0" />
+                     </font>
+                     <graphic>
+                        <ImageView fitHeight="38.0" fitWidth="42.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../images/tool.png" />
+                           </image>
+                        </ImageView>
+                     </graphic>
+                  </JFXButton>
+                  <JFXButton fx:id="blogButton" contentDisplay="TOP" layoutX="10.0" layoutY="362.0" prefHeight="70.0" prefWidth="81.0" stylesheets="@application.css" text="Blog" textFill="WHITE">
+                     <font>
+                        <Font name="Serif Bold" size="14.0" />
+                     </font>
+                     <graphic>
+                        <ImageView fitHeight="38.0" fitWidth="42.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../images/blog.png" />
+                           </image>
+                        </ImageView>
+                     </graphic>
+                  </JFXButton>
+					</children>
+					<effect>
+						<DropShadow />
+					</effect>
+				</VBox>
+			</children>
+		</AnchorPane>
+	</children>
+</AnchorPane>

@@ -1,0 +1,89 @@
+/* JavaFX CSS - Leave this comment until you have at least create one rule which uses -fx-Property */
+.leftPane{
+	-fx-background-color: rgba(0, 0, 0,0.5);
+}
+
+.homeButton
+{
+-fx-background-color : #313152;
+-fx-background-radius : 10 10 0 0;
+}
+
+.homeButton:hover
+{
+-fx-background-color : #50557F ;
+-fx-background-radius : 10 10 0 0;
+-fx-cursor: hand;
+}
+
+.homeButton:pressed
+{
+-fx-background-color : #8A8DA9 ;
+-fx-background-radius : 10 10 0 0;
+-fx-cursor: hand;
+}
+
+.button
+{
+-fx-background-color : #313152;
+}
+
+.button:hover
+{
+-fx-background-color : #50557F ;
+-fx-cursor: hand;
+}
+
+.button:pressed
+{
+-fx-background-color : #8A8DA9 ;
+-fx-cursor: hand;
+}
+
+.playButton
+{
+-fx-background-color :  #51AABF;
+-fx-background-radius : 40 40 40 40;
+-fx-border-color :  #FFFFFF;
+-fx-border-radius :  40 40 40 40;
+}
+.playButton:hover
+{
+-fx-background-color : #8BC6D4 ;
+-fx-background-radius : 40 40 40 40;
+-fx-border-color :  #FFFFFF;
+-fx-border-radius :  40 40 40 40;
+-fx-cursor: hand;
+}
+.playButton:pressed
+{
+-fx-background-color : #5C848D ;
+-fx-background-radius : 40 40 40 40;
+-fx-border-color :  #FFFFFF;
+-fx-border-radius :  40 40 40 40;
+-fx-cursor: hand;
+}
+
+.randomButton
+{
+-fx-background-color : tranparent;
+-fx-background-radius :    20 20 20 20;
+-fx-border-color :  #FFFFFF;
+-fx-border-radius :  20 20 20 20;
+}
+.randomButton:hover
+{
+-fx-background-color : #AAAAAA;
+-fx-background-radius :    20 20 20 20;
+-fx-border-color :  #FFFFFF;
+-fx-border-radius :  20 20 20 20;
+-fx-cursor: hand;
+}
+.randomButton:pressed
+{
+-fx-background-color : #717171;
+-fx-background-radius :    20 20 20 20;
+-fx-border-color :  #FFFFFF;
+-fx-border-radius :  20 20 20 20;
+-fx-cursor: hand;
+}
